@@ -9,17 +9,19 @@ These rules are designed to protect the buyers and are unique to live seafood tr
 (2) for shrinkage - when the seafood loses water weight in transit; and  
 (3) for cancellations - when the merchant is unable to fulfil an agreed order  
 
+#### Room for Improvement
+* The validation is a bit clunky, I didn't have more time to fix it, but it works. You have to enter the numbers exactly like in the placeholder examples. There is room for improvement
+* The calculation only works for Kilos at the moment. I didn't take into account that users can enter the weight in grams
+
 #### To Run locally  
 ``` javascript
 npm init  
 npm install  
 npm start
 ```
-
 #### To Build for Production  
 ``` javascript
 npm run production
 ```
-
 ## Built Using
 React, Webpack, SCSS, JSX. Works on all modern browsers, tablets and phones.
