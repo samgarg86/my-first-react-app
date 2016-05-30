@@ -1,0 +1,37 @@
+@import 'variables';
+.result-container {
+	.result {
+		margin: 76px 25px 44px;
+		font-size: 16px;
+		font-weight: 400;
+		span {
+			text-transform: lowercase;
+		}
+	}
+	hr {
+		margin: 0 13px ;
+	}
+	.blue {
+		color: $blue;
+	}
+	.green {
+		color: $green;
+	}
+	.explaination {
+		margin: 30px 43px 100px;
+		font-size: 12px;
+		color: $faded-grey;
+		header {
+			font-weight: 500;
+		}
+	}
+	.terms {
+		font-size: 12px;
+		a {
+			color: $blue;
+		}
+	}
+}
+
+
+
